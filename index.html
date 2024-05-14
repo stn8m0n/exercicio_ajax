@@ -14,7 +14,7 @@
             <h1 class="profile-name" id="name">Xxxx Xxxx</h1>
             <h2 class="profile-username" id="username"></h2>
             <ul class="numbers">
-                <li class="numbers-item" id="repos">
+                <li class="numbers-item">
                     <h4>Repositórios</h4>
                     <h3 id="repos">X</h3>
                 </li>
@@ -27,37 +27,9 @@
                     <h3 id="following">Z</h3>
                 </li>
             </ul>
-            <a href="#" class="profile-link">Ver no Github</a>
+            <a href="https://github.com/stn8m0n" class="profile-link">Ver no Github</a>
         </div>
     </header>
-
-    <!--<script>
-        document.addEventListener('DOMContentLoaded', function(){
-
-const nameElement = document.querySelector('#name');
-const usernameElement = document.querySelector('#username');
-const avatarElement = document.querySelector('#avatar');
-const reposElement = document.querySelector('#repos');
-const followersElement = document.querySelector('#followers');
-const followingElement = document.querySelector('#following');
-const linkElement = document.querySelector('#link');
-
-fetch('https://api.github.com/users/stn8m0n')
-    .then(function(res){
-        return res.json();
-    })
-    .then(function(json){
-        nameElement.innerText = json.name;
-        usernameElement.innerText = json.login;
-        avatarElement.innerText = json.avatar_url;
-        followersElement.innerText = json.followers;
-        followingElement.innerText = json.following;
-        repos.innerText = json.public_repos;
-        linkElement.href = json.html_url;
-    })
-
-})
-    </script>-->
 
     <script src="ajax.js"></script>
 </body>

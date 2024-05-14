@@ -15,10 +15,10 @@ document.addEventListener('DOMContentLoaded', function(){
                 .then(function(json){
                     nameElement.innerText = json.name;
                     usernameElement.innerText = json.login;
-                    avatarElement.innerText = json.avatar_url;
+                    avatarElement.src = json.avatar_url;
                     followersElement.innerText = json.followers;
                     followingElement.innerText = json.following;
-                    repos.innerText = json.public_repos;
+                    reposElement.innerText = json.public_repos;
                     linkElement.href = json.html_url;
                 })
 
