@@ -1,6 +1,7 @@
 :root {
     --header-color:orangered;
     --bg-color: #eee;
+    --text-color: red;
 }
 
 * {
@@ -44,7 +45,7 @@ header .container {
 }
 
 .profile-username {
-    margin: 16px 0 32px;
+    margin-top: 16px;
     font-size: 1.1em;
 }
 
@@ -55,6 +56,8 @@ header .container {
     display: inline-block;
     margin-top: 24px;
     text-decoration: none;
+    border-radius: 20px;
+    
 }
 
 .numbers {
@@ -69,4 +72,12 @@ header .container {
 
 .numbers-item h4 {
     font-size: .3em;
+}
+
+.readme{
+    font-size: 0.8em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: left;
+    padding: 0;
 }
