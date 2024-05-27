@@ -49,17 +49,6 @@ header .container {
     font-size: 1.1em;
 }
 
-.profile-link {
-    background-color: var(--header-color);
-    color: var(--bg-color);
-    padding: 8px 16px;
-    display: inline-block;
-    margin-top: 24px;
-    text-decoration: none;
-    border-radius: 20px;
-    
-}
-
 .numbers {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -80,4 +69,27 @@ header .container {
     margin-bottom: 1em;
     text-align: left;
     padding: 0;
+}
+
+.contato{
+    padding-top: 1em;
+    display: flex;
+    justify-content:center;
+}
+
+.contato-link{
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.link-acesso {
+    background-color: var(--header-color);
+    color: var(--bg-color);
+    padding: 8px 16px;
+    display: inline;
+    margin-top: 24px;
+    text-decoration: none;
+    border-radius: 20px;
+    
 }
